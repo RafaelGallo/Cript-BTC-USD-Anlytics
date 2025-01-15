@@ -102,19 +102,66 @@ O arquivo será salvo na pasta SQL/output.
 | BTC-USD  | Bitcoin         |
 | ETH-USD  | Ethereum        |
 
----
+# Criação Dashboard
 
 ![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/dash.png?raw=true)
 
+
+## **Consulta SQL**
+
+### 1. Consulta SQL 
+Histórico de preços para uma criptomoeda específica (BTC-USD)
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/003.png?raw=true)
+
+### 2. Histórico de preços para uma criptomoeda específica (BTC-USD)
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/012.png?raw=true)
+
+### 3.Volume total negociado por criptomoeda
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/013.png?raw=true)
+
+### 4. Preço máximo, mínimo e médio de cada criptomoeda
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/014.png?raw=true)
+
+## **Análise de Dados**
+
+### 1. **Gráfico de Linha: Preço de Fechamento**
+O gráfico de linha mostra a evolução do preço de fechamento do Bitcoin ao longo do tempo.
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/004.png?raw=true)
+
+### 2. **Comparação de Alta, Baixa e Fechamento**
+Este gráfico compara os preços de alta, baixa e fechamento do BTC-USD.
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/005.png?raw=true)
+
+### 3. **Sazonalidade Mensal**
+Gráfico mostrando o preço médio de fechamento por mês para identificar padrões sazonais.
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/006.png?raw=true)
+
+### 4. **Detecção de Outliers**
+Os outliers foram identificados e destacados como pontos vermelhos. Isso ajuda a identificar dados que podem ser tratados ou removidos para melhorar a qualidade.
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/007.png?raw=true)
+
+### 5. **Volume x Preço de Fechamento**
+Análise do volume negociado em relação ao preço de fechamento.
+
+![](https://github.com/RafaelGallo/Cript-BTC-USD-Anlytics/blob/main/img/008.png?raw=true)
+
+
 ## **Tecnologias Utilizadas**
+
 - **Python**: Linguagem principal.
 - **SQLite**: Banco de dados local para armazenamento.
 - **SQLAlchemy**: ORM para modelagem e interação com o banco.
 - **Pandas**: Manipulação e exportação de dados.
 - **openpyxl**: Exportação para Excel.
 - **Power BI**: Visualização de dados.
-
----
 
 ## **Contribuição**
 Sinta-se à vontade para contribuir com melhorias ou abrir issues para reportar problemas.
@@ -134,21 +181,18 @@ Sinta-se à vontade para contribuir com melhorias ou abrir issues para reportar 
    ```
 5. Abra um Pull Request.
 
----
-
 ## **Licença**
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
 
 
-```
 ### **Como Usar**
 
 1. Salve o conteúdo acima no arquivo **`README.md`** na raiz do projeto.
 
 2. Faça o commit e o push para o repositório GitHub:
 
-   ```bash
-   git add README.md
-   git commit -m "Adicionando o README"
-   git push origin main
- ```
+```bash
+git add README.md
+git commit -m "Adicionando o README"
+git push origin main
+```
